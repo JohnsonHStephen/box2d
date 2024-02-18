@@ -5,3 +5,15 @@ settings.ini
 CMakeSettings.json
 out/
 .vs/
+
+# Binaries
+**/bin/
+!vendor/premake/bin
+bin-int/
+
+# Visual Studio Files
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
